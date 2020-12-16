@@ -14,7 +14,6 @@ export default class ScrollSuave {
   }
 
   scrollToSection(event) {
-    console.log(this.options);
     event.preventDefault();
     const href = event.currentTarget.getAttribute("href");
     const section = document.querySelector(href);
