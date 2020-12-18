@@ -44,6 +44,6 @@ funcionamento.init();
 const scrollAnima = new ScrollAnima('[data-anime="scroll"]');
 scrollAnima.init();
 
-fetchAnimais("../../animaisapi.json", ".numeros-grid");
+fetchAnimais("./animaisapi.json", ".numeros-grid");
 
 fetchBitcoin("https://blockchain.info/ticker", ".btc-preco");
